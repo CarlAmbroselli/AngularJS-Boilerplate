@@ -1,7 +1,7 @@
 describe('homepage', function() {
 
     beforeEach(function() {
-        browser.get('/home')
+        browser.get('#/home')
     })
 
     it('should have a title', function() {
