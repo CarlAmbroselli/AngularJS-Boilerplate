@@ -9,8 +9,8 @@ An opinionated kickstarter for [AngularJS](http://angularjs.org) projects.
 Install Node.js and then:
 
 ```sh
-$ git clone git://github.com/CarlAmbroselli/AngularJS-Boilerplate
-$ cd AngularJS-Boilerplate
+$ git clone  --depth=1 git://github.com/CarlAmbroselli/AngularJS-Boilerplate project_name
+$ cd project_name
 $ npm install
 $ bower install
 $ update `baseUrl` in `protractor/protractor-unit.tpl.js` to match your local url
